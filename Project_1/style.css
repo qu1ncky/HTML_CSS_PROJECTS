@@ -1,0 +1,118 @@
+.main {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image_preview {
+  display: flex;
+  justify-content: center;
+}
+#preview_picture {
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;
+}
+.reflections-wrapper {
+  width: 100%;
+  max-width: 1000px;
+  padding-top: 2rem;
+}
+.reflection-title {
+  display: flex;
+  justify-content: center;
+  font-size: 7em;
+  line-height: 6rem;
+  font-family: "Times New Roman", serif;
+}
+.reverse {
+  transform: rotateX(180deg);
+  color: #ccd1d7;
+}
+.black-title-wrapper {
+  padding-top: 2rem;
+  max-width: 1000px;
+}
+
+.black-background {
+  width: 100%;
+  height: 560px;
+  background-color: black;
+  margin-top: 4em;
+}
+.black-block-text {
+  color: white;
+  letter-spacing: 8px;
+  line-height: 0.5px;
+  font-family: "Times New Roman", serif;
+  text-align: center;
+  padding-top: 2em;
+}
+.titile-p1 {
+  padding-top: 5px;
+}
+.titile-p2 {
+  padding-top: 35px;
+}
+.titile-p3 {
+  padding-top: 35px;
+}
+
+.small-pictures {
+  width: 490px;
+  max-width: 100%;
+}
+.block-pictures {
+  display: flex;
+  width: 100%;
+  margin-top: 25px;
+  justify-content: space-between;
+}
+.big-picture-content {
+  display: flex;
+  margin-top: 40px;
+  width: 100%;
+}
+.big-pictures {
+  max-width: 100%;
+}
+
+.black-block-bg {
+  width: 100%;
+  height: 330px;
+  margin-top: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reflection-in-black-block {
+  display: flex;
+  justify-content: center;
+  font-size: 7rem;
+  line-height: 6rem;
+  font-family: "Times New Roman", serif;
+  color: white;
+}
+.reflection-in-black-block_reverse {
+  display: flex;
+  justify-content: center;
+  font-size: 7rem;
+  line-height: 6rem;
+  font-family: "Times New Roman", serif;
+  color: #ccd1d7;
+  transform: rotateX(180deg);
+}
+.white-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+.article-end {
+  color: #767676;
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+  font-family: sans-serif;
+}
