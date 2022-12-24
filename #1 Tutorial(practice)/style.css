@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 16px;
+  color: black;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+.title h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  margin-bottom: 50px;
+  color: #fcfffc;
+}
+.title span {
+  color: #ff7b40;
+}
+.list_menu a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: #fcfffc;
+  border-left: 2px solid #ff7b40;
+  padding-left: 5px;
+  transition: all 0.2s ease;
+}
+.list_menu a:hover {
+  border-left: 2px solid #ff7b40;
+  padding-left: 10px;
+  transition: all 0.2s ease;
+}
+.list_menu li {
+  margin: 20px 0;
+}
+.list_menu {
+  margin-bottom: 50px;
+}
+.menu {
+  padding: 25vh 50px;
+  position: fixed;
+  background: rgba(20, 20, 20, 0.5);
+  height: 100vh;
+  backdrop-filter: blur(12px);
+  border-right: 5px solid #ff7b40;
+  left: -340px;
+  transition: all 0.35s ease;
+}
+.menu:hover {
+  left: 0px;
+  transition: all 0.35s ease;
+}
+.background-image {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.footer_menu p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #fcfffc;
+}
